@@ -1,5 +1,6 @@
-from flask import Flask, render_template, redirect, request, flash, session, url_for
+from flask import Flask, render_template, redirect, request, flash, session, url_for, send_file
 import requests
+import io
 
 ENDPOINT_API = "https://api.thecatapi.com/v1/images/search"
 
@@ -40,6 +41,31 @@ def cat():
     session["url_image"] = url_image
 
     return redirect(url_for("index"))
+
+
+@app.route("/download")
+def download():
+    url = session.get("url_image")
+    name = session.get("name")
+
+    if not url or not name:
+        return redirect("/")
+
+    # Faz o download da imagem da API
+    response = requests.get(url)
+
+    # Pega a extensão do arquivo (ex: jpg, png)
+    ext = url.split(".")[-1]
+    # Limpa o nome para evitar problemas com arquivos
+    filename = f"{name}.{ext}"
+
+    # Envia o arquivo para o navegador
+    return send_file(
+        io.BytesIO(response.content),
+        mimetype=f"image/{ext}",
+        as_attachment=True,
+        download_name=filename,
+    )
 
 
 @app.route("/reset")
