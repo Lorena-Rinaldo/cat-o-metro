@@ -76,7 +76,7 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 ```
 ## Contato
 * Desenvolvido por: Lorena Rinaldo Moreira
-* Vercel: https://cat-o-metro.vercel.app/
-* GitHub: https://github.com/Lorena-Rinaldo
-* LinkedIn: www.linkedin.com/in/lorena-rinaldo01
-* Email: lorena.rinaldodev@gmail.com
+*   **Vercel**: <a href="https://cat-o-metro.vercel.app/ " target="_blank">https://cat-o-metro.vercel.app/</a>
+*   **GitHub:** <a href="https://github.com/Lorena-Rinaldo" target="_blank">github.com/Lorena-Rinaldo</a>
+*   **LinkedIn:** <a href="https://www.linkedin.com/in/lorena-rinaldo01" target="_blank">linkedin.com/in/lorena-rinaldo01</a>
+*   **Email:** <a href="mailto:lorena.rinaldodev@gmail.com">lorena.rinaldodev@gmail.com</a>
