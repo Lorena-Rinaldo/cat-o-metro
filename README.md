@@ -75,7 +75,7 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 └── README.md                # Documentação
 ```
 ## Contato
-Desenvolvido por: Lorena Rinaldo Moreira
-GitHub: https://github.com/Lorena-Rinaldo
-LinkedIn: www.linkedin.com/in/lorena-rinaldo01
-Email: lorena.rinaldodev@gmail.com
+* Desenvolvido por: Lorena Rinaldo Moreira
+* GitHub: https://github.com/Lorena-Rinaldo
+* LinkedIn: www.linkedin.com/in/lorena-rinaldo01
+* Email: lorena.rinaldodev@gmail.com
